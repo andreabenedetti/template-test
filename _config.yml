@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: pdatalab
+# theme: pdatalab
 plugins:
   - jekyll-feed
 color: forest
