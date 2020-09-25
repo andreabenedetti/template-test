@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: pdatalab
+plugins:
+  - jekyll-feed
+color: forest
+
+author:
+  - name: University of Manchester
+    logo: https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png
+  - name: King’s College London
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/King%27s_College_London_logo.svg/1280px-King%27s_College_London_logo.svg.png
+  - name: University of Amsterdam
+    logo: https://study-eu.s3.amazonaws.com/uploads/university/uva-university-of-amsterdam-533-logo.png
+  - name: OI Lab
+    logo:
+  - name: DensityDesign Lab
+    logo: http://densitydesign.org/wp-content/themes/whiteasmilk/img/logo_density.svg
+  - name: Public Data Lab
+    logo: https://www.publicdatalab.org/imgs/publicdatalab-logo.svg
