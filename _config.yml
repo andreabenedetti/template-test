@@ -30,21 +30,27 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# theme: pdatalab
+#theme: pdatalab
+remote_theme: "densitydesign/pdatalab"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 color: forest
 
 author:
   - name: University of Manchester
-    logo: https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png
+    logo: "https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png"
   - name: King’s College London
-    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/King%27s_College_London_logo.svg/1280px-King%27s_College_London_logo.svg.png
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/King%27s_College_London_logo.svg/1280px-King%27s_College_London_logo.svg.png"
   - name: University of Amsterdam
-    logo: https://study-eu.s3.amazonaws.com/uploads/university/uva-university-of-amsterdam-533-logo.png
+    logo: "https://study-eu.s3.amazonaws.com/uploads/university/uva-university-of-amsterdam-533-logo.png"
   - name: OI Lab
-    logo:
   - name: DensityDesign Lab
-    logo: http://densitydesign.org/wp-content/themes/whiteasmilk/img/logo_density.svg
+    logo: "http://densitydesign.org/wp-content/themes/whiteasmilk/img/logo_density.svg"
   - name: Public Data Lab
-    logo: https://www.publicdatalab.org/imgs/publicdatalab-logo.svg
+    logo: "https://www.publicdatalab.org/imgs/publicdatalab-logo.svg"
+
+participants:
+  - name: Arthur
+  - name: Morgana
+  - name: Philippe
