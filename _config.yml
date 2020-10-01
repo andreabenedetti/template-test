@@ -32,7 +32,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-#theme: pdatalab
 remote_theme: "densitydesign/pdatalab"
 plugins:
   - jekyll-feed
